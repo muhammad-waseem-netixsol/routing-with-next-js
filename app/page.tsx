@@ -21,10 +21,10 @@ export default function Home() {
     description: "Very fine quality chair"
   }]
   return (
-    <main className="flex min-h-screen bg-zinc-300 flex-col items-center justify-between p-24">
+    <main className="w-full flex min-h-screen flex-col items-center justify-between p-2">
      <h1 className='text-center'>Routing In Next js Assignment</h1>
     <h2>Routes</h2>
-    <div className='bg-gray-200 flex justify-center items-center gap-3'>
+    <div className=' w-full flex flex-wrap justify-center items-center gap-3'>
     {PRODUCTS.map(p => <Chair key={Math.random()} prod={p}/>)}
     </div>
     <Link href={`/dashboard`}><button className='border py-3 w-[300px] mt-5 bg-purple-500 text-white hover:border-purple-500 hover:bg-gray-200 hover:text-black'>GO TO DASHBOARD</button></Link>

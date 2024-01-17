@@ -4,7 +4,7 @@ import Link from 'next/link'
 function Chair({prod}) {
   return (
     <Link href={`/details/${prod.id}`}>
-    <div className="hover:shadow-lg cursor-pointer max-w-[350px] bg-white border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700">
+    <div className="hover:shadow-lg cursor-pointer w-full sm:w-[350px] bg-white border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700">
         <img className="block w-[350px] sm:min-w-[350px] h-[300px]" src={prod.image} alt="" />
     <div className="p-5">
       
