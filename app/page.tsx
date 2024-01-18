@@ -3,19 +3,19 @@ import Chair from "@/components/Chair";
 import Link from 'next/link';
 export default function Home() {
   const PRODUCTS = [{
-    id:1,
+    id:0,
     image: "https://tse2.mm.bing.net/th?id=OIP.RfooReCjMUmVoGEF6E1boAHaEo&pid=Api&P=0&h=220",
     price: 100,
     description: "Very fine quality chair"
   }, 
   {
-    id:2,
+    id:1,
     image: "https://tse2.mm.bing.net/th?id=OIP.DDKx4zKxGy4fOCJUSsqHEgHaEK&pid=Api&P=0&h=220",
     price: 200,
     description: "Very fine quality chair"
   },
   {
-    id:3,
+    id:2,
     image: "https://tse2.mm.bing.net/th?id=OIP.DDKx4zKxGy4fOCJUSsqHEgHaEK&pid=Api&P=0&h=220",
     price: 300,
     description: "Very fine quality chair"
