@@ -18,7 +18,7 @@ const PRODUCTS = [{
     description: "Very fine quality chair"
   }]
 function Page({params}) {
-    if(+params.id => 2){
+    if(+params.id > 2){
         return <div className="h-screen flex justify-center items-center">404 Page Not found</div>
     }
     const product = PRODUCTS[+params.id - 1];
